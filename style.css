@@ -130,6 +130,7 @@
 
 .left {
     Width: 30%;
+    padding-left: 10px;
 }
 
 .right {
@@ -235,13 +236,27 @@ footer {
     }
 
     /*resume*/
+    .column {
+        width: 100%;
+        float: none;
+    }
+    
     .right {
         width: 100%;
         height: auto;
     }
 
     .left {
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    .left img {
+        max-width: 100%;
+        height: auto;
     }
 
     .topnav img{
